@@ -8,12 +8,31 @@ html,
     font-family: "Raleway", sans-serif;
 }
 
+body {
+    background: lightgrey;
+    text-align: center;
+}
 h1
 {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 70px;
 }
 
 .card-1
 {
-    
+    background: white;
+    color: red;
+    width: 25%;
+    border: 5px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#img-1 {
+    object-fit: cover;
+    height: 30%;
+    width: 100%;
 }
