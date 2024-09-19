@@ -1,7 +1,7 @@
 body,
 html,
-*{
-    font size: 10px;
+* {
+    font-size: 10px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -14,42 +14,44 @@ body {
 }
 
 .container {
-flex-wrap: wrap;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
 }
 
-h1
-{
+h1 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 70px;
+    font-size: 65px;
 }
 
-.card-1
-{
-    align-items: center;
+.card-1 {
+    font-size: 70px;
     background: white;
     color: red;
     border: 5px solid red;
+    align-items: center;
     border-radius: 20px;
     padding: 10px;
-    margin-bottom: 20px;
-    width: 500px;
+    margin-bottom: 10px;
+    width: 400px;
 }
 
-#img-1 {
+#img {
     object-fit: cover;
-    height: 30%;
+    height: 60%;
     width: 100%;
 }
 
-#p1 {
-    padding-top: 10px;
+#p {
+    padding-top: 12px;
+    padding-bottom: 25px;
+    font-size: 15px;
 }
 
-#title1 {
+#title {
     padding-bottom: 10px;
+    font-size: 25px;
 }
