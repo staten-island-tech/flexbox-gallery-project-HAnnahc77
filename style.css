@@ -19,55 +19,6 @@ body {
     justify-content: center;
 }
 
-@media (max-width: 1300px) {
-
-    #card-1,
-    #card-2,
-    #card-3,
-    #card-4,
-    #card-5,
-    #card-6,
-    #card-7,
-    #card-8,
-    #card-9 {
-        width: calc(45% - 20px);
-    }
-}
-
-
-@media (max-width: 900px) {
-
-    #card-1,
-    #card-2,
-    #card-3,
-    #card-4,
-    #card-5,
-    #card-6,
-    #card-7,
-    #card-8,
-    #card-9 {
-        width: calc(85% - 40px);
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
-
-@media (max-width: 400px) {
-
-    #card-1,
-    #card-2,
-    #card-3,
-    #card-4,
-    #card-5,
-    #card-6,
-    #card-7,
-    #card-8,
-    #card-9 {
-        width: calc(85% - 40px);
-        height: 315px;
-    }
-}
-
 h1 {
     text-align: center;
     margin-top: 20px;
@@ -88,6 +39,7 @@ h1 {
     box-shadow: 0 8px 8px black;
 
 }
+
 
 #card-1 {
     background: white;
@@ -144,19 +96,19 @@ h1 {
     border: 5px solid white;
 }
 
-#img {
+.img {
     object-fit: cover;
     height: 60%;
     width: 100%;
 }
 
-#p {
+.p {
     padding-top: 5px;
     padding-bottom: 10px;
     font-size: 12.5px;
 }
 
-#title {
+.title {
     padding-bottom: 10px;
     font-size: 25px;
 }
@@ -220,5 +172,30 @@ h1 {
     100% {
         background-color: orange;
         transform: scale(1);
+    }
+}
+
+@media (max-width: 1300px) {
+
+.card {
+        width: calc(45% - 20px);
+    }
+}
+
+
+@media (max-width: 900px) {
+
+.card {
+        width: calc(85% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+
+.card {
+        width: calc(85% - 40px);
+        height: 315px;
     }
 }
